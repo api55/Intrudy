@@ -1,0 +1,12 @@
+<launch>
+
+<!-- start stage node -->
+	<node pkg="stage" type="stageros" output="screen" name="stageros" args="$(find AIS_worlds)/LBH.world">
+ 	<remap from="base_scan" to="laserscan"/>
+	</node>
+
+<!-- start intrudy node -->
+	<node pkg="intrudy" type="target.py" output="screen" name="target" >
+	</node>
+
+</launch>

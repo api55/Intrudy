@@ -1,0 +1,11 @@
+background substraction
+
+
+find literature:
+	person detection by legs (laser scanner)
+	person tracking by legs (laser scanner)
+
+
+Roomba 5
+Laptop 8
+
